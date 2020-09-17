@@ -1,8 +1,31 @@
 :root{
   --bg-escuro: #223240;
+  --fonte-clara: #ffffff;
   --bg-verde-1: #347355;
   --bg-verde-2: #60BF81;
   --bg-verde-3: #4F8C23;
   --bg-verde-4: #B7F25E;
+  --large-size: 1.3rem;
+  --medium-size: 1.125rem;
+
 }
 
+.container{
+  display: grid;
+  grid-template-columns: 10vw auto 10vw;
+  grid-template-rows: 100vh;
+  
+}
+
+.layout{
+  grid-template-areas: 
+  "header header header"
+  "main main main"
+  "footer footer footer";
+}
+
+.titulo{
+  font-family: 'Bellefair', Georgia, serif;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}

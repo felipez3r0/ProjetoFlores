@@ -1,0 +1,53 @@
+.header{
+  grid-area: header;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../assets/flor-pedra3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  width: 80%;
+  margin-bottom: 60px; 
+}
+
+.header div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.bg-opacity{
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-escuro);
+  background-image: linear-gradient(var(--bg-escuro), var(--bg-verde-1));  
+  opacity: 0.9;
+}
+
+.bg-opacity p{
+  text-align: center;
+  width: 80%;
+  font-size: 1.3rem;
+  color: #fafafa;
+  font-weight: bold;
+  
+}
+
+.menu{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px 0;
+}
+
+.menu a{
+  color: var(--fonte-clara);
+  font-size: var(--large-size);
+}
+

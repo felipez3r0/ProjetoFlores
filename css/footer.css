@@ -1,0 +1,12 @@
+.footer{
+  grid-area: footer;
+  height: 15vh;
+  background-color: var(--bg-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p{
+  color: var(--fonte-clara);
+}

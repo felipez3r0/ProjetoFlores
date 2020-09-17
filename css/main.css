@@ -1,0 +1,13 @@
+.main{
+  grid-area: main;
+  height: auto;
+}
+
+.main .content{
+  grid-column: 2 / 3; 
+  height: 80vh;
+}
+
+.main .content:nth-child(2n){
+  background-color: burlywood;
+}
