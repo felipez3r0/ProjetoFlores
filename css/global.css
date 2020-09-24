@@ -13,11 +13,10 @@
 .container{
   display: grid;
   grid-template-columns: 10vw auto 10vw;
-  grid-template-rows: 100vh;
-  
 }
 
 .layout{
+  grid-template-rows: 100vh;
   grid-template-areas: 
   "header header header"
   "main main main"
