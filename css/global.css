@@ -32,7 +32,6 @@ p{
   "footer footer footer";
 }
 
-
 .flex{
   display: flex;
   align-items: center;
@@ -40,8 +39,8 @@ p{
   flex-flow: row nowrap;
 }
 
-/* @media (max-width: 1000px){
+@media (max-width: 1000px){
   .flex{
     flex-flow: column nowrap;
   }
-} */
+}
