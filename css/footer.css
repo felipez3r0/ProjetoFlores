@@ -9,4 +9,5 @@
 
 .footer p{
   color: var(--fonte-clara);
+  text-align: center;
 }

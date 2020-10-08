@@ -10,9 +10,18 @@
 
 }
 
+p{
+  font-size: var(--medium-size);
+  line-height: 25px;
+}
+
 .container{
   display: grid;
   grid-template-columns: 10vw auto 10vw;
+}
+
+.center{
+  margin: 0 10vw;
 }
 
 .layout{
@@ -23,8 +32,16 @@
   "footer footer footer";
 }
 
-.titulo{
-  font-family: 'Bellefair', Georgia, serif;
-  font-size: 2.5rem;
-  margin: 20px 0;
+
+.flex{
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  flex-flow: row nowrap;
 }
+
+/* @media (max-width: 1000px){
+  .flex{
+    flex-flow: column nowrap;
+  }
+} */
